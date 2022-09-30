@@ -19,10 +19,10 @@
 //
 // Usage: ncrypt [FLAGS] [ARGUMENTS...]
 //
-//    -cipher string   Specify cipher - default: platform depended
-//    -d               Decrypt
-//    -list            List supported algorithms
-//    -p      string   Specify the password - default: prompt for password
+//	-cipher string   Specify cipher - default: platform depended
+//	-d               Decrypt
+//	-list            List supported algorithms
+//	-p      string   Specify the password - default: prompt for password
 //
 // Examples:
 //
@@ -42,7 +42,7 @@ import (
 	"sort"
 	"syscall"
 
-	"github.com/minio/sio"
+	"github.com/whitehatsec/sio"
 	"golang.org/x/crypto/scrypt"
 	"golang.org/x/crypto/ssh/terminal"
 )
